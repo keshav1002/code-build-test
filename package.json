@@ -1,0 +1,29 @@
+{
+  "name": "code-build-test",
+  "version": "1.0.0",
+  "description": "Sample project to test code build",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "serverless offline",
+    "deploy": "serverless deploy",
+    "test": "jest",
+    "debug": "node --inspect-brk node_modules\\serverless\\bin\\serverless offline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshav1002/code-build-test.git"
+  },
+  "author": "Keshav Kumaresan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keshav1002/code-build-test/issues"
+  },
+  "homepage": "https://github.com/keshav1002/code-build-test#readme",
+  "dependencies": {
+    "serverless": "^1.50.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "serverless-offline": "^5.10.1"
+  }
+}
